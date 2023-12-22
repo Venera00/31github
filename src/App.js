@@ -11,6 +11,14 @@ export const ACTIONS = {
   EVALUATE: "evaluate",
 };
 
+export const ACTIONS = {
+  ADD_DIGIT: "add-digit",
+  CHOOSE_OPEARTION: "choose-operation",
+  CLEAR: "clear",
+  DELETE_DIGIT: "delete-digit",
+  EVALUATE: "evaluate",
+};
+
 function reducer(state, { type, payload }) {
   switch (type) {
     case ACTIONS.ADD_DIGIT:
